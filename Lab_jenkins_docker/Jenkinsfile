@@ -5,7 +5,7 @@ pipeline {
     environment {
         DOCKER_CONTAINER_NAME = "lab_docker_jenkins-container"
         DOCKER_IMAGE_NAME     = "lab_docker_jenkins-image"
-        PORT                  = "8086"
+        PORT                  = "8085"
     }
 
     stages {
